@@ -1,0 +1,28 @@
+Three approaches to adding an API
+
+API Design is hard, game of tradeoffs
+
+-What functionality to expose 
+-How to expose it
+-How best to expose it
+-How to adjust and improve
+
+Affordance - is a quality of an object, or an environment, which allows a user to perform an action.
+Door knob, light switch are good examples.
+
+Affordance in practice
+-What the API allows you to do
+-What the API makes easy
+-What the user wants to accomplish
+
+Three methods
+1. Bolt-on
+-Existing application, and add an API after the fact.
+
+2. Greenfield Strategy
+-No underlying application or business logic to interact with.
+
+3. Facade Strategy
+-Taking advantage of existing business systems, and shape them to what you prefer and need.
+
+Example: SOAP services that power their back end, and they're wrapping each of these services with rearchitected REST services. 
